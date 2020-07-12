@@ -1,7 +1,7 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(  # Connection to DB (using minikube ip)
-    host="192.168.99.101",
+    host="192.168.99.103",
     port="31515"
 )
 
